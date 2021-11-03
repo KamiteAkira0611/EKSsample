@@ -1,4 +1,4 @@
-# GKEsample
+# EKSsample
 NestJS + Prisma + React + Mysql の簡易アプリ
 
 # 開発環境
@@ -9,14 +9,4 @@ NestJS + Prisma + React + Mysql の簡易アプリ
 
 ```
 $ docker compose up -d
-```
-
-# デプロイ
-
-masterにpushするとCloudBuildが立ち上がり自動デプロイされます
-
-### ローカルテスト
-```
-$ gcloud init
-$ gcloud builds submit --config cloudbuild.yaml 
 ```
